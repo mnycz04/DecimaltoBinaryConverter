@@ -34,7 +34,7 @@ int main(void) {
     bool negative_flag = FALSE;
 
     printf("Enter a valid, 64-bit signed decimal integer: ");
-    scanf("%lli", number);
+    scanf("%li", number);
     printf("\n");
 
     // Check for Negative Value, if it is, gets the absolute value and stores it in *number
